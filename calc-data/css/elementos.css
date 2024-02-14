@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+#titulo {
+    font-size: 20px;
+    font-weight: 100;
+
+    margin: 25px 0 25px 25px;
+
+    display: inline;
+}
+
+#entrada_de_datas {
+    margin: 0 0 0 25px;
+}
+
+.datas {
+    margin: 0 15px 15px 0px;
+}
+
+.datas input {
+    padding: 15px;
+}
+
+#data_inicial {
+    background: rgba(255, 255, 255, 0.21);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.33);
+
+    display: inline;
+
+    width: 170px;
+    height: 50px;
+}
+
+#data_final {
+    background: rgba(255, 255, 255, 0.21);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.33);
+
+    display: inline;
+
+    width: 170px;
+    height: 50px;
+}
+
+.datas:focus {
+    outline: black solid 1px;
+}
+
+.operacoes {
+    display: flex;
+    margin: 0 0 15px 25px;
+}
+
+.btn {
+    padding: 0 !important;
+    border: none !important;
+}
+
+.enviar {
+    background: rgba(78, 255, 8, 0.5);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(30, 255, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(72, 255, 0, 0.33);
+
+    width: 90px;
+    height: 46px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.enviar:hover {
+    box-shadow: 0 4px 90px rgba(30, 255, 0, 0.9);
+    border: 1px solid rgb(72, 255, 0);
+}
