@@ -1,0 +1,26 @@
+{
+  "name": "usando_npm",
+  "version": "1.0.0",
+  "description": "Projeto de teste",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raave-git/dev-quest-dois.git"
+  },
+  "keywords": [
+    "javascript",
+    "npm"
+  ],
+  "author": "Raavë L Aires",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/raave-git/dev-quest-dois/issues"
+  },
+  "homepage": "https://github.com/raave-git/dev-quest-dois#readme",
+  "dependencies": {
+    "kind-of": "^6.0.3"
+  }
+}
