@@ -1,0 +1,1 @@
+1. Um dado dinâmico é um dado que foi manipulado via JavaScript.

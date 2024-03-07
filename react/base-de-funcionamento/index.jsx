@@ -1,1 +1,0 @@
-const element = <h1>Opa, Synthboy!</h1>
